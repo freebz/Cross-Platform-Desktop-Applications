@@ -1,0 +1,21 @@
+{
+  "name": "lorikeet",
+  "version": "1.0.0",
+  "main": "main.js",
+  "author": "",
+  "description": "A file explorer application",
+  "scripts": {
+    "pack": "build",
+    "dist": "build"
+  },
+  "dependencies": {
+    "async": "^3.2.0",
+    "lunr": "^1.0.0",
+    "osenv": "^0.1.5"
+  },
+  "devDependencies": {
+    "electron": "^1.4.14",
+    "electron-builder": "^11.4.4"
+  },
+  "build": {}
+}
