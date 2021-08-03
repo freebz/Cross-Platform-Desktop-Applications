@@ -1,0 +1,19 @@
+<html>
+  <head>
+    <title>Kiosk mode NW.js app example</title>
+    <script>
+      'use strict';
+
+      const gui = require('nw.gui');
+      const win = gui.Window.get();
+
+      function exit() {
+	win.leaveKioskMode();
+      }
+    </script>
+  </head>
+  <body>
+    <h1>Kiosk mode app</h1>
+    <button onclick="exit();">Exit</button>
+  </body>
+</html>

@@ -1,0 +1,13 @@
+{
+  "name" : "window-sizing-nwjs",
+  "version" : "1.0.0",
+  "main" : "index.html",
+  "window" : {
+    "width" : 300,
+    "height" : 200,
+    "max_width": 1024,
+    "min_width": 800,
+    "max_height": 768,
+    "min_height": 600
+  }
+}
