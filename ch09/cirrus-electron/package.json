@@ -1,0 +1,8 @@
+{
+  "name": "Cirrus",
+  "version": "1.0.0",
+  "main": "main.js",
+  "dependencies": {
+    "dialogs": "^1.1.17"
+  }
+}
