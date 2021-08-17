@@ -1,0 +1,21 @@
+{
+  "name": "snake-electron",
+  "version": "1.0.0",
+  "description": "A Snake game, built with Electron for the book 'Cross Platform Desktop Applications'",
+  "main": "main.js",
+  "scripts": {
+    "start": "node_modules/.bin/electron .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "snake",
+    "electron",
+    "keyboard",
+    "shortcuts"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "electron-prebuilt": "^1.2.5"
+  }
+}
