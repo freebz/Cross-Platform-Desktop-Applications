@@ -1,0 +1,19 @@
+{
+  "name": "lorikeet",
+  "version": "1.0.0",
+  "main": "index.html",
+  "scripts": {
+    "pack": "nwbuild . -o ./build -p win64,osx64,linux64",
+    "start": "build/lorikeet/linux64/lorikeet",
+    "test": "node_modules/.bin/mocha"    
+  },
+  "dependencies": {
+    "async": "^3.2.0",
+    "lunr": "^1.0.0",
+    "osenv": "^0.1.5"
+  },
+  "devDependencies": {
+    "mocha": "^9.0.3",
+    "nw-builder": "^3.5.7"
+  }
+}
